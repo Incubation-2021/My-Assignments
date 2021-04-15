@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		body{
+			display: flex;
+			margin: 0px;
+			height: 100vh;
+		}
+		.child1{
+			width: 20%;
+			background-color: pink;
+	
+		.child2{
+			flex-grow: 1;
+			background-color: yellow;
+			display: flex;
+			flex-direction: column;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="child1"></div>
+	<div class="child2">
+		<div style="height: 20%; background-color: yellow"></div>
+		<div style="flex-grow: 1;background-color: gray; display:flex;">
+			<div style="flex-grow: 1; background-color: gray;">
+				<div style="height: 30%; width: 100%; margin-top: 43%; background-color: white"></div>
+			</div>
+			<div style="width: 20%; background-color: blue"></div>
+		</div>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.box{
+			height: 100px;
+			width: 100px;
+			background-color: red;
+			position: relative;
+			animation: first 5s;
+			animation-direction: alternate; 
+		}
+		@keyframes first{
+			0% {background:red; left: 0px; top:0x;}
+			25%{background:yellow; left: 300px; top:0px;}
+			50%{background:orange; left: 300px; top:300px;}
+			75%{background:blue; left: 0px; top: 300px;}
+			100%{background:pink;left: 0px; top: 0px;}
+		}
+	</style>
+</head>
+<body>
+	<h1>The animation direction property</h1>
+	<div class="box"></div>
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+css properties:
+
+height{max-height, min-height}
+
+width{max-width, min-width}
+
+color:{rgb, hex, hsl}
+
+backgrounds:
+
+  background-image
+  background-color
+  background-repeat
+  background-position
+  background-attachment
+
+borders:
+
+  border-width
+  border-color
+  border-side
+  border-shorthand
+  rounded-borders
+
+margin:
+
+  margins
+  marins collapse
+
+padding:
+
+  padding-side
+
+font:
+
+  font family
+  font style
+
+outline:
+
+  width
+  color
+  shorthand
+  offset
+
+text:
+
+  color
+  alignment
+  decoration
+  transformation
+  spacing
+  shadow 
+  
+
+
+
+

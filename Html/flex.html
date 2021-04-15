@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+	<style type="text/css">
+		.container{
+			display: flex;
+			margin: 0px;
+			height: 100vh;
+			flex-direction: column;
+			
+			
+		}
+		.child1{
+			height: 10%;
+			width: 100%;
+			background-color: pink;
+
+		}
+		.child2 {
+
+			flex-grow: 1;
+			background-color: white;
+			display: flex;
+			flex-direction: row;
+			padding: 30px;
+			flex-direction: column;
+
+			
+		}
+		.main{
+			height: 100%; 
+			width: 25%;
+		    background-color:yellow !important;
+ 		}
+ 		.a{
+ 			height: 100%; 
+ 			width: 20%;
+ 		    display: flex;
+ 		    align-items: center;
+ 		    justify-content: center;
+ 			color: white;
+ 		}
+ 		.b{
+ 			height: 130%;
+ 			 width: 45%; 
+ 			 flex-direction: column;
+ 		}
+ 		.c{
+ 			width: 100%;
+ 			background-color: white;
+ 			padding: 5px;
+ 			display: flex;
+ 			flex-direction: row;
+ 			justify-content: space-between;
+ 			height: 15% ;
+ 		}
+ 		.center{
+ 			text-align: center;
+ 		}
+ 		.mt20{
+ 			margin-top:20px; 
+ 		}
+ 		.mt30{
+ 			margin-top: 30px;
+ 		}
+ 		.d{
+ 			height: 40%;
+ 		    width: 30%; 
+ 		    background-color: orange; 
+ 		    margin-top: 40px;
+ 		    padding: 10px; 
+ 		    display: flex;
+ 		    justify-content: space-between;
+ 		    align-content: flex-start;
+ 			flex-direction: column;
+ 		}
+		.e{
+			height: 85%;
+		    width: 40%; 
+		    background-color: pink;
+		    border-radius: 50%;
+
+		     
+		}
+		.f{
+			height: 70%;
+		    width: 25%;
+		    padding: 10px;
+		    display: flex;
+		    flex-direction: column;
+		    align-items: center;
+		    justify-content: center;
+		}
+		.g{
+			height: 30px;
+		    width: 30px; 
+		    border-radius: 50%;
+		    	}
+		.h{
+			width: 100%;
+			height: 10%;
+			background-color: white;
+		}
+		.h1{
+			height:89%;
+			width:100%;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+		}
+		.a1{
+			height:100%;
+			width:25%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			font-size: 24px;
+		}
+		.a2{
+			height:100%;
+			width:75%;
+			font-size: 14px;
+		}
+		.border{
+			border:1px solid;
+		}
+		.mrg0{
+			padding: 0;
+			margin:5px 0 0 10px;
+		}
+		.w1{
+			height: 40%;
+			width: 100%;
+			display:flex;
+			
+		}
+		.w2{
+			height: 60%;
+			width: 100%;
+		}		}		
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="child1"></div>
+		<div class="child2">
+			<div class="c" >
+				<div class="a">
+					<div class="a1" style="background-color:#f90060;">
+						<i class='fab fa-apple'></i>
+					</div>
+					<div class="a2" style="background-color: #ff0079;">
+						<p class="mrg0">Value</p>
+						<p class="mrg0" style="margin-top: 10px;">214245</p>
+					</div>
+				</div>
+				<div class="a">
+					<div class="a1" style="background-color:#00b1c4;">
+						<i class='fab fa-google'></i>
+					</div>
+					<div class="a2" style="background-color: #00cbdc;">
+						<p class="mrg0">Likes</p>
+						<p class="mrg0" style="margin-top: 10px;">214245</p>
+					</div>
+
+				</div>
+				<div class="a">
+				 <div class="a1" style="background-color:#9808a1;">
+				 	<i class='fab fa-hotjar'></i>
+				 </div>
+					<div class="a2" style="background-color: #c336bf;">
+						<p class="mrg0">Transfers</p>
+						<p class="mrg0" style="margin-top: 10px;">214245</p>
+					</div>
+				</div>
+				<div class="a">
+					<div class="a1" style="background-color:#ff8100;">
+				 	<i class='fas fa-image'></i>
+				 </div>
+					<div class="a2" style="background-color: #ffa100;">
+						<p class="mrg0">Newmembers</p>
+						<p class="mrg0" style="margin-top: 10px;">214245</p>
+					</div>
+				</div>
+			</div>
+	 		<div class="c mt20">
+				<div class="b" >
+					<div class="w1" style="background-color:#a500ad">
+						<p class="mrg0">Recent order</p>
+					</div>
+					<div class="w2" style="background-color: #b600b4"></div>
+				</div>
+				<div class="b">
+					<div class="w1" style="background-color: #f90060">
+						<p class="mrg0">Yearly overview</p>
+					</div>
+					<div class="w2" style="background-color: #ff0079">
+						<div></div>
+					</div>
+				</div>
+				
+			</div>
+			<div  class="c mt30"  style="height: 25%;" >
+				<div class= "main" style="background-color: #ff0079;">
+					<div class="w1"></div>
+					<div class="w2"></div>
+					
+				</div>
+				<div class="main">publisher
+					<p>Good year Books</p>
+					<p>Dk Pub</p>
+				</div>
+				<div class="main">ID
+					<p>Ijwdskcn</p>
+					<p>Tsfkjvk</p>
+				</div>	
+			</div>
+			<div class="d">
+				<div class="h">Type Breakdown</div>
+				<div class="h1">
+					<div class="e mt30"></div>
+					<div class="f">
+						<div class="g" style="background-color:#00b3c2;"></div>
+						<div class="g mt20 " style="background-color: #fd005f"></div>
+						<div class="g mt20"></div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		
+	</div>
+
+</body>
+</html>
